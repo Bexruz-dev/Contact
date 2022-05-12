@@ -1,0 +1,33 @@
+.input-group {
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+  }
+  
+  .input-group .input-group-text {
+    padding-left: 35px;
+    padding-right: 35px;
+    background: #7d71d3;
+    height: 60px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .form-control::-webkit-input-placeholder {
+    color: #999999;
+    font-size: 14px;
+  }
+
+ 
+  .bg-elipse-red {
+    background: url(../../assets/images/elipse-bg-two.png) no-repeat;
+    background-position: center;
+  }
+
+  p, li, blockquote, label {
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    color: #999999;
+    margin-bottom: 0;
+}
+  

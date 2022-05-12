@@ -1,0 +1,71 @@
+.pricing-table {
+    background: #fff;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.1);
+    padding: 50px 0;
+    margin-bottom: 80px;
+  }
+  
+  .pricing-table.featured .price p {
+    color: #ff698d;
+  }
+  
+  .pricing-table.featured .action-button .btn-main-rounded {
+    background: #ff698d;
+  }
+  
+  .pricing-table .title {
+    margin-bottom: 30px;
+  }
+  
+  .pricing-table .title h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .pricing-table .price {
+    margin-bottom: 30px;
+  }
+  
+  .pricing-table .price p {
+    font-size: 36px;
+    font-weight: bold;
+    color: #7d71d3;
+  }
+  
+  .pricing-table .price p span {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .pricing-table .action-button {
+    margin-top: 30px;
+  }
+  
+  .btn-main-rounded {
+    letter-spacing: .075em;
+    background: #7d71d3;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 100px;
+  }
+  
+  .btn-main-rounded:hover {
+    color: #fff;
+  }
+  
+li{
+    list-style: none;
+    margin: 15px 0;
+    font-size: 16px;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    color: #999999;
+}  
+
+#pricing{
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 150px;
+}

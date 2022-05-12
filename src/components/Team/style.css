@@ -1,0 +1,73 @@
+
+  .team-member {
+    background: #fff;
+    padding: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .team-member {
+      margin-bottom: 40px;
+    }
+  }
+  
+  .team-member .image {
+    margin-bottom: 30px;
+  }
+  
+  .team-member .image img {
+    border-radius: 100%;
+  }
+  
+  .team-member .name h5 {
+    font-weight: 700 !important;
+    font-size: 17px;
+    color: black;
+    text-transform: uppercase;
+  }
+
+  .team-member .position p{
+    font-size: 12px;
+    color: #999999;
+  }
+  
+  .team-member .position {
+    margin-bottom: 20px;
+  }
+  
+  .team-member .skill-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .team-member .skill-bar .progress {
+    width: 80%;
+    height: 7px;
+    align-self: center;
+  }
+  
+  .team-member .skill-bar .progress .progress-bar {
+    width: 0;
+    background: #7d71d3;
+  }
+  
+  .team-member .skill-bar span {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+
+  ul.social-icons li a {
+    display: block;
+    height: 30px;
+    width: 30px;
+    background: #f8f8f8;
+    text-align: center;
+    border-radius: 100%;
+    color: #999999;
+  }
+  
+  ul.social-icons li a i {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  
+

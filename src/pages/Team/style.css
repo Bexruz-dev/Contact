@@ -1,0 +1,58 @@
+.shadow, .about .about-block .about-item, .screenshots .screenshot-slider .image img, .counter .counter-item, .team-member, .service .service-box, .founder img, .team-sm .image img, .post-sm, .job-list .block, .privacy .block, .user-login .block .image img, .coming-soon .block .count-down .syotimer-cell {
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.05);
+  }
+  
+
+  .team-member {
+    background: #fff;
+    padding: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .team-member {
+      margin-bottom: 40px;
+    }
+  }
+  
+  .team-member .image {
+    margin-bottom: 30px;
+  }
+  
+  .team-member .image img {
+    border-radius: 100%;
+  }
+  
+  .team-member .name h5 {
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .team-member .position {
+    margin-bottom: 20px;
+  }
+  
+  .team-member .skill-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .team-member .skill-bar .progress {
+    width: 80%;
+    height: 7px;
+    align-self: center;
+  }
+  
+  .team-member .skill-bar .progress .progress-bar {
+    width: 0;
+    background: #7d71d3;
+  }
+  
+  .team-member .skill-bar span {
+    font-size: 12px;
+    margin-left: 15px;
+  }
+  
+#team{
+    padding-left: 150px;
+    padding-right: 150px;
+}  

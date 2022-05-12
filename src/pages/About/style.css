@@ -1,0 +1,60 @@
+.shadow, .about .about-block .about-item, .screenshots .screenshot-slider .image img, .counter .counter-item, .team-member, .service .service-box, .founder img, .team-sm .image img, .post-sm, .job-list .block, .privacy .block, .user-login .block .image img, .coming-soon .block .count-down .syotimer-cell {
+    box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.05);
+  }
+
+  @media (max-width: 768px) {
+    .about .image-block {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+  
+  .about .about-block .about-item {
+    background: #fff;
+    display: flex;
+    padding: 30px;
+    font-size: 15px;
+
+  }
+  
+  .about .about-block .about-item.active {
+    background: #7d71d3;
+  }
+  
+  .about .about-block .about-item.active .icon i {
+    color: #fff;
+  }
+  
+  .about .about-block .about-item.active .content h5,
+  .about .about-block .about-item.active .content p {
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .about .about-block .about-item .icon {
+    width: 50px;
+  }
+  
+  .about .about-block .about-item .icon i {
+    font-size: 48px;
+    color: #7d71d3;
+  }
+  
+  .about .about-block .about-item .content {
+    margin-left: 30px;
+    height: 120px;
+  }
+  
+  .about .about-block .about-item .content h5 {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  
+  .about .about-block .about-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+  
+  
+
+  
